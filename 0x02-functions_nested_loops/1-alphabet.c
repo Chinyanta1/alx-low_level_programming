@@ -1,18 +1,18 @@
 #include "main.h"
 
 /**
- * print_alphabet - Make the alphabet
- * Return: void
+ * print_alphabet - Prints the alphabet
  */
 
 void print_alphabet(void)
 
 {
-	char c;
+	int letter = 'a';
 
-	for (c = 'a'; c <= 'z'; c++)
+	while (letter <= 'z')
 	{
-	_putchar(c);
+	_putchar(letter);
+	letter++;
 	}
-	_putchar('n');
+	_putchar('\n');
 }
